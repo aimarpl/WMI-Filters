@@ -43,7 +43,9 @@ Some client and server releases share a build, so the filters also check `Produc
 | 19041 | Windows 10 2004 | Windows Server 2004 |
 | 18363 | Windows 10 1909 | Windows Server 1909 |
 | 18362 | Windows 10 1903 | Windows Server 1903 |
-| 17763 | Windows 10 1809 | Windows Server 2019 |
+| 17763 | Windows 10 1809 | Windows Server 2019 / 1809 |
+| 17134 | Windows 10 1803 | Windows Server 1803 |
+| 16299 | Windows 10 1709 | Windows Server 1709 |
 | 14393 | Windows 10 1607 | Windows Server 2016 |
 
 ## Usage

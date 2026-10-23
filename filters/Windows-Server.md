@@ -156,9 +156,9 @@ Retired semi-annual Server Core releases.
 | [Windows Server 2004](#windows-server-2004) | 19041 |
 | [Windows Server 1909](#windows-server-1909) | 18363 |
 | [Windows Server 1903](#windows-server-1903) | 18362 |
-| [Windows Server 1809](#windows-server-1809) | 17134 |
-| [Windows Server 1803](#windows-server-1803) | 16299 |
-| [Windows Server 1709](#windows-server-1709) | 14393 |
+| [Windows Server 1809](#windows-server-1809) | 17763 |
+| [Windows Server 1803](#windows-server-1803) | 17134 |
+| [Windows Server 1709](#windows-server-1709) | 16299 |
 
 ### Windows Server 20H2
 
@@ -197,7 +197,7 @@ select * from Win32_OperatingSystem where Version like "10.0.18362%" and (Produc
 Windows Server version 1809.
 
 ```sql
-select * from Win32_OperatingSystem where Version like "10.0.17134%" and (ProductType="2" or ProductType="3")
+select * from Win32_OperatingSystem where Version like "10.0.17763%" and (ProductType="2" or ProductType="3")
 ```
 
 ### Windows Server 1803
@@ -205,7 +205,7 @@ select * from Win32_OperatingSystem where Version like "10.0.17134%" and (Produc
 Windows Server version 1803.
 
 ```sql
-select * from Win32_OperatingSystem where Version like "10.0.16299%" and (ProductType="2" or ProductType="3")
+select * from Win32_OperatingSystem where Version like "10.0.17134%" and (ProductType="2" or ProductType="3")
 ```
 
 ### Windows Server 1709
@@ -213,7 +213,7 @@ select * from Win32_OperatingSystem where Version like "10.0.16299%" and (Produc
 Windows Server version 1709.
 
 ```sql
-select * from Win32_OperatingSystem where Version like "10.0.14393%" and (ProductType="2" or ProductType="3")
+select * from Win32_OperatingSystem where Version like "10.0.16299%" and (ProductType="2" or ProductType="3")
 ```
 
 ## See also
