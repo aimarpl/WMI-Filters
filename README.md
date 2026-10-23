@@ -81,3 +81,7 @@ Get-CimInstance Win32_OperatingSystem | Select-Object Caption, Version, BuildNum
   a slow query delays every policy refresh.
 - Windows 2000 ignores WMI filters, so a GPO with a filter still applies to it.
 - Confirm results with `gpresult /h report.html` or the **Group Policy Results** wizard in GPMC.
+
+## License
+
+Released under the [MIT License](LICENSE).
