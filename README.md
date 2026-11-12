@@ -1,5 +1,8 @@
 # WMI Filters for Group Policy
 
+[![WQL](https://img.shields.io/badge/WQL-Group%20Policy%20WMI%20filters-0078D4?logo=windows&logoColor=white)](https://learn.microsoft.com/windows/win32/wmisdk/wql-sql-for-wmi)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Ready-to-use WMI filters for targeting Group Policy Objects by Windows version, build,
 product type, domain role and architecture. 58 filters, each one copy-paste ready.
 
